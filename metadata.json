@@ -1,0 +1,5 @@
+{
+  "name": "Neon Snake",
+  "description": "A mobile-friendly neon-themed Snake game.",
+  "requestFramePermissions": []
+}
