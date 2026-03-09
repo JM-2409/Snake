@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🐍 Juego de la Serpiente Neón (Neon Snake)
 
-# Run and deploy your AI Studio app
+Un juego clásico de la serpiente (Snake) optimizado para dispositivos móviles con un estilo visual de neón brillante.
 
-This contains everything you need to run your app locally.
+## ✨ Características
 
-View your app in AI Studio: https://ai.studio/apps/4c6c2cec-f5d9-4084-a706-26138b8dd3a2
+- **Estilo Visual Neón:** Fondo oscuro con colores brillantes (verde neón para la serpiente y rosa neón para la comida) y un efecto de resplandor (glow) en los elementos y la puntuación.
+- **Controles para Celular:** 
+  - Puedes deslizar el dedo (swipe) sobre el área de juego para cambiar la dirección de la serpiente.
+  - También incluye una cruceta de botones en pantalla (D-Pad) en la parte inferior para quienes prefieran tocar botones.
+- **Controles para PC:** Si lo abres en computadora, puedes usar las flechas del teclado o las teclas `WASD` para moverte, y la barra espaciadora para pausar.
+- **Puntuación:** Muestra tu puntuación actual y guarda tu mejor puntuación (Best Score) en el dispositivo.
+- **Diseño Responsivo:** El juego se adapta automáticamente al tamaño de la pantalla, manteniendo un formato cuadrado perfecto para jugar.
 
-## Run Locally
+## 🚀 Tecnologías Utilizadas
 
-**Prerequisites:**  Node.js
+- **Next.js** y **React**
+- **TypeScript**
+- **Tailwind CSS** para los estilos
+- **HTML5 Canvas** para renderizar el juego
 
+## 🛠️ Cómo ejecutar el proyecto localmente
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clona este repositorio o descarga el código fuente.
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para jugar.
+
+## 📝 Licencia
+
+Este proyecto es de código abierto y está disponible bajo la licencia MIT.
